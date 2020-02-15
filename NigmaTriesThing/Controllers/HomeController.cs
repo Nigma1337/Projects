@@ -16,7 +16,7 @@ namespace NigmaTriesThing.Controllers
     {
         public static void cum() {
             MySql.Data.MySqlClient.MySqlConnection conn;
-            string myConnectionString = "Server=localhost;Database=passwords;Uid=root;Pwd=Bassehund123";
+            string myConnectionString = "Server=localhost;Database=passwords;Uid=root;Pwd=NotGoingOnGithub";
             conn = new MySql.Data.MySqlClient.MySqlConnection();
             conn.ConnectionString = myConnectionString;
             conn.Open();
